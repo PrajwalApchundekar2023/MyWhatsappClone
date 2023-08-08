@@ -3,13 +3,23 @@
   justify-content: space-between;
   height: 3.5rem;
   align-items: center;
+  background-color: #f0f2f8;
+  padding: 1rem;
+  border-bottom: 1px solid #ccc;
+}
+.avtar {
+  height: 3rem;
+  flex-basis: 3rem;
+  border-radius: 50%;
 }
 .menus {
   display: flex;
   flex-direction: row;
   justify-content: space-between;
   height: 1.6rem;
+  flex-basis: 40%;
 }
+
 img {
   width: 100%;
 }
