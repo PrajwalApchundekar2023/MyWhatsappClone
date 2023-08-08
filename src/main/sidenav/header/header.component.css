@@ -10,7 +10,6 @@
 .avtar {
   height: 3rem;
   flex-basis: 3rem;
-  border-radius: 50%;
 }
 .menus {
   display: flex;
@@ -22,4 +21,5 @@
 
 img {
   width: 100%;
+  border-radius: 50%;
 }
