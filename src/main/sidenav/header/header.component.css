@@ -1,0 +1,15 @@
+.container {
+  display: flex;
+  justify-content: space-between;
+  height: 3.5rem;
+  align-items: center;
+}
+.menus {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  height: 1.6rem;
+}
+img {
+  width: 100%;
+}
