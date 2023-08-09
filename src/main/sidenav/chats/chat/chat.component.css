@@ -8,6 +8,10 @@
   margin-top: 2px;
   border-bottom: 2px solid #ccc;
 }
+.container:hover {
+  background-color: #eceeee;
+  cursor: pointer;
+}
 .avtar {
   display: flex;
   align-items: center;
