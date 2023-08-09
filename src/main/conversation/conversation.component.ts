@@ -1,14 +1,14 @@
 import { Component, OnInit } from '@angular/core';
-import { ContainComponent } from './contain/contain.component';
-import { HeaderComponent } from './header/header.component';
-import { MbarComponent } from './mbar/mbar.component';
+import { ConheaderComponent } from './conheader/conheader.component';
+import { FooterComponent } from './footer/footer.component';
+import { MsgWindowComponent } from './msg-window/msg-window.component';
 
 @Component({
   standalone: true,
   selector: 'app-conversation',
   templateUrl: './conversation.component.html',
   styleUrls: ['./conversation.component.css'],
-  imports: [MbarComponent, ContainComponent, HeaderComponent],
+  imports: [ConheaderComponent, FooterComponent, MsgWindowComponent],
 })
 export class ConversationComponent implements OnInit {
   constructor() {}
