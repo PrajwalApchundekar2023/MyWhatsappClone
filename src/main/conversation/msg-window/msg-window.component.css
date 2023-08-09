@@ -1,9 +1,44 @@
-.container{
+.container {
   display: flex;
+  flex-direction: column;
   justify-content: center;
   align-items: center;
   width: 100%;
   height: 36rem;
   /* background-color: red; */
   background-image: url(https://user-images.githubusercontent.com/15075759/28719144-86dc0f70-73b1-11e7-911d-60d70fcded21.png);
+  overflow-y: scroll;
+  overflow-x: hidden;
+}
+
+.inmsg {
+  border: 1px solid #eee;
+  border-radius: 10px;
+  padding: 1rem;
+  max-width: 60%;
+  min-width: 20%;
+  background-color: white;
+  align-self: flex-start;
+  margin: 1rem;
+}
+.outmsg {
+  border: 1px solid #eee;
+  border-radius: 10px;
+  padding: 1rem;
+  max-width: 60%;
+  min-width: 20%;
+  background-color: white;
+  align-self: flex-end;
+  margin: 1rem;
+}
+.container::-webkit-scrollbar {
+  width: 5px;
+}
+.container::-webkit-scrollbar-track {
+  box-shadow: inset 0 0 6px rgba(163, 163, 163, 0, 3);
+  border-radius: 5px;
+}
+.container::-webkit-scrollbar-thumb {
+  border-radius: 5px;
+  box-shadow: inset 0 0 6px rgba(163, 163, 163);
 }
